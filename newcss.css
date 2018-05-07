@@ -1,59 +1,119 @@
 body {
-    background: #777;
+	background: #777;
 }
 
 #background {
-    border: 2px solid black;
-    width: 300px;
-    height: 400px;
-    background: gray;
-    margin: 50px auto;
+	border: 2px solid black;
+	width: 300px;
+	height: 400px;
+	background: #146b85;
+	margin: 50px auto;
 }
 
 button {
-    border: 0;
-    color: #fff;
+	border: 0;
+	color: #fff;
 }
 
 #result {
-    display: block;
-    font-family: sans-serif;
-    width: 250px;
-    height: 40px;
-    background: #3b3535;
-    color: #fff;
-    font-size: 20px;
-    padding-top: 20px;
-    margin: 10px auto;
-    margin-left: 25px;
-    position: relative;
-    border: 0;
-    letter-spacing: 4px;
-    top: 10px;
-    overflow: none;
+	display: block;
+	font-family: sans-serif;
+	width: 248px;
+	height: 40px;
+	background: #3b3535;
+	color: #fff;
+	font-size: 20px;
+	padding-top: 20px;
+	margin: 10px auto;
+	margin-left: 25px;
+	position: relative;
+	border: 0;
+	letter-spacing: 4px;
+	top: 10px;
+	overflow: none;
+	cursor: text;
 }
 
 #first-rows {
-    margin-bottom: 20px;
-    position: relative;
-    top: 10px;
+	margin-bottom: 20px;
+	position: relative;
+	top: 10px;
 }
 
 #delete {
-    width: 110px;
-    height: 50px;
-    margin-left: 25px;
-    border-radius: 4px;
+	width: 120px;
+	height: 50px;
+	margin-left: 25px;
+	border-radius: 4px;
 }
 
 .del-bg {
-    background: #24b4de;
-    color: #fff;
-    font-size: 26px;
-    cursor: pointer;
-    border-bottom: 3px solid #399cb9;
+	background: #24b4de;
+	color: #fff;
+	font-size: 26px;
+	cursor: pointer;
+	border-bottom: 3px solid #399cb9;
 }
 
-.del-bg:hover {
-    background: #1ea0c8;
+.del-bg:active {
+	background: #24b4de;
+	color: #fff;
+	font-size: 26px;
+	cursor: pointer;
+	outline: none;
+	box-shadow: inset 4px 4px 4px #399cb9;
+}
+
+/* Button styling */
+
+.btn-style {
+	width: 55px;
+	height: 50px;
+	margin-left: 5px;
+	border-radius: 4px;
+}
+
+.opera-bg {
+	background: #737373;
+	color: #fff;
+	font-size: 26px;
+	cursor: pointer;
+	outline: none;
+	border-bottom: 3px solid #555;
+}
+
+.opera-bg:active {
+	background: #737373;
+	color: #fff;
+	font-size: 26px;
+	cursor: pointer;
+	outline: none;
+	box-shadow: inset 4px 4px 4px #666666;
+}
+
+.rows {
+	width: 300px;
+	margin-top: 10px;
+}
+
+.first-child {
+	margin-left: 25px;
+}
+
+.num-bg {
+	background: #737373;
+	color: #fff;
+	font-size: 26px;
+	cursor: pointer;
+	outline: none;
+	border-bottom: 3px solid #555;
+}
+
+.num-bg:active {
+	background: #737373;
+	color: #fff;
+	font-size: 26px;
+	cursor: pointer;
+	outline: none;
+	box-shadow: inset 4px 4px 4px #666666;
 }
