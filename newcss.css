@@ -1,0 +1,10 @@
+body {
+    background: #777;
+}
+
+#background {
+    width:300px;
+    height:400px;
+    background:gray;
+    margin:50px auto;
+}
