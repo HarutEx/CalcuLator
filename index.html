@@ -2,28 +2,47 @@
 <html>
 
 <head>
-	<meta charset="utf-8">
-	<title>calculator</title>
-	<link rel="shortcut icon" href="image/calculator.png"></link>
-	<link rel="stylesheet" href="newcss.css"></link>
+    <meta charset="utf-8">
+    <title>calculator</title>
+    <link rel="shortcut icon" href="image/calculator.png"></link>
+    <link rel="stylesheet" href="newcss.css"></link>
 </head>
 
 <body>
-	<div id="background">
-		<div id="result"></div>
-		<div id="main">
-			<div id="first-rows">
-				<button class="del-bg" id="delete">DeL</button>
-				<button value="%" class="btn-style operator opera-bg fall-back">%</button>
-				<button value="+" class="btn-style opera-bg value align operator">+</button>
-			</div>
-			<div class="rows">
-				<button value="7" class="btn-style num-bg first-child">7</button>
-				<button value="8" class="btn-style num-bg">8</button>
-			</div>
-		</div>
-	</div>
-	<script src="myScript.js"></script>
+    <div id="background">
+        <div id="result"></div>
+        <div id="main">
+            <div id="first-rows">
+                <button class="del-bg" id="delete">DeL</button>
+                <button value="%" class="btn-style operator opera-bg fall-back">%</button>
+                <button value="+" class="btn-style opera-bg value align operator">+</button>
+            </div>
+            <div class="rows">
+                <button value="7" class="btn-style num-bg first-child">7</button>
+                <button value="8" class="btn-style num-bg">8</button>
+                <button value="7" class="btn-style num-bg">9</button>
+                <button value="-" class="btn-style operator opera-bg">-</button>
+            </div>
+            <div class="rows">
+                <button value="7" class="btn-style num-bg first-child">4</button>
+                <button value="8" class="btn-style num-bg">5</button>
+                <button value="7" class="btn-style num-bg">6</button>
+                <button value="*" class="btn-style operator opera-bg">x</button>
+            </div>
+            <div class="rows">
+                <button value="7" class="btn-style num-bg first-child">1</button>
+                <button value="8" class="btn-style num-bg">2</button>
+                <button value="7" class="btn-style num-bg">3</button>
+                <button value="/" class="btn-style operator opera-bg">/</button>
+            </div>
+            <div class="rows">
+                <button value="0" class="btn-style num-bg" id="delete">0</button>
+                <button value="." class="btn-style num-bg fall-back">.</button>
+                <button value="=" id="eqn-bg" class="eqn">=</button>
+            </div>
+        </div>
+    </div>
+    <script src="myScript.js"></script>
 </body>
 
 </html>
